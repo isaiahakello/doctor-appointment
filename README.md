@@ -1,4 +1,4 @@
-Project Structure 1. Database Design:
+<p>Project Structure 1. Database Design:
 ◦ Design a relational database schema with tables for patients, doctors, appointments, etc.
 ◦ Create a .sql dump of your database schema. 2. Backend Development (Using Laravel):
 ◦ Set up a Laravel project.
@@ -17,6 +17,8 @@ Project Structure 1. Database Design:
 ◦ Create a report with filters for different parameters. 7. Testing:
 ◦ Write unit tests for critical components.
 ◦ Ensure that the application is user-friendly and handles edge cases gracefully.
+</p>
+<p>
 
 Installation Instructions:
 Prerequisites:
@@ -39,14 +41,18 @@ Access the application in your browser: http://localhost:8000
 Database Dump:
 Export your database to a .sql dump file using a tool like mysqldump:
 bashCopy code
+
+</p>
 mysqldump -u your_username -p your_database_name > database_dump.sql
 Test Login Credentials:
 Receptionist:
-• Username: receptionist@example.com
-• Password: password
+• Username: reception@test.com
+• Password: Yj99B>aR41>f&6T
 Doctor:
-• Username: doctor@example.com
-• Password: password
+• Username: doctor@test.com
+• Password: Yj99B>aR41>f&6T
+
+<p>
 Project Structure:
 • app/Http/Controllers:
 ◦ ReceptionController.php: Handles receptionist actions.
@@ -76,3 +82,4 @@ Tabular Format Display:
 Record Actions:
 • Implement view, edit, and delete actions for each record.
 This is a basic example, and you may need to adapt it based on your specific requirements and use cases.
+</p>
