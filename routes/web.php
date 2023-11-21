@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PatientController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('patients', PatientController::class);
 
 
 Auth::routes();
