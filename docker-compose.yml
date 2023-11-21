@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  laravel-test-db:
+    image: mysql
+    container_name: laravel-test-db
+    environment:
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: laravel_test_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db-data:/var/lib/mysql
