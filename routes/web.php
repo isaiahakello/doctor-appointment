@@ -13,16 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Auth::routes();
-
 Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('/patients','\PatientsController');
+
+Route::resource('/doctors','DoctorsController');
+
+Route::resource('/bookings','\BookingsController');
+
+Route::resource('/receptionists','\ReceiptionistsController');
+

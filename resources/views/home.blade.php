@@ -183,13 +183,43 @@
 				<!-- begin sidebar nav -->
 				<ul class="nav">
 					<li class="nav-header">Navigation</li>
-					<li class="has-sub active">
-						<a href="javascript:;">
-							<b class="caret"></b>
+					<li class="active">
+						<a  href="{{url('/home')}}">
+							
 							<i class="fa fa-th-large"></i>
 							<span>Dashboard</span>
 						</a>
 					</li>
+
+                        <li>
+                            <a href="{!! route('patients.index') !!}">
+                                <i class="fa fa-users"></i>
+                                <span>Patients </span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="{!! route('bookings.index') !!}">
+                                <i class="fa fa-calendar"></i>
+                                <span>Bookings</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{!! route('receptionists.index') !!}">
+                                <i class="fa fa-book"></i>
+                                <span>Receptionists</span>
+                            </a>
+                        </li>                       
+                        
+
+                        <li>
+                            <a href="{!! route('doctors.index') !!}">
+                                <i class="fa fa-plus-square"></i>
+                                <span>Doctors</span>
+                            </a>
+                        </li>                                                   
+
 					<!-- begin sidebar minify button -->
 					<li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>
 					<!-- end sidebar minify button -->
