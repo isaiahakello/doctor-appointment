@@ -5,7 +5,7 @@
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-	<title>Color Admin | Login Page</title>
+	<title>Doctor Appointment | Login Page</title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
@@ -37,8 +37,8 @@
 			<!-- begin brand -->
 			<div class="login-header">
 				<div class="brand">
-					<span class="logo"></span> <b>Color</b> Admin
-					<small>responsive bootstrap 4 admin template</small>
+					<span class="logo"></span> <b>Doctor</b> Appointment
+					<small>responsive bootstrap 4 Appointment template</small>
 				</div>
 				<div class="icon">
 					<i class="fa fa-lock"></i>
@@ -74,7 +74,7 @@
 		<div class="theme-panel theme-panel-lg">
 			<a href="javascript:;" data-click="theme-panel-expand" class="theme-collapse-btn"><i class="fa fa-cog"></i></a>
 			<div class="theme-panel-content">
-				<h5 class="m-t-0">Color Theme</h5>
+				<h5 class="m-t-0">Doctor Theme</h5>
 				<ul class="theme-list clearfix">
 					<li><a href="javascript:;" class="bg-red" data-theme="red" data-theme-file="../assets/css/default/theme/red.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Red">&nbsp;</a></li>
 					<li><a href="javascript:;" class="bg-pink" data-theme="pink" data-theme-file="../assets/css/default/theme/pink.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Pink">&nbsp;</a></li>
